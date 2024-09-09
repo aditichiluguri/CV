@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #16423C;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #16423C;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.splash {
+    color: #16423C;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.splash img {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.splash p:first-of-type {
+    font-style: italic;
+    color: #16423C;
+}
+
+.splash p:last-of-type {
+    font-style: normal;
+    color: #16423C;
+    font-weight: bold;
+}
+
+hr {
+    border: 2px solid #16423C;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #6A9C89;
+    text-align: center;
+}
+
+.education {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 1.25em;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+a {
+    color: #6A9C89;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#C4DAD2;
+    text-decoration: underline;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #C4DAD2;
+    padding: 20px;
+    border: 1px solid #16423C;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color: #C4DAD2;
+    color: black;
+    border: 5px;;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #6A9C89;
+}
+
+.intro {
+    color: #16423C;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
